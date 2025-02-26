@@ -48,6 +48,47 @@ p2{position: absolute;
 
 p2{ color:#ffffff;}
 
+/* Portfolio Page */ 
+.portfolio-content {
+    padding: 0px 20px;
+    text-align: center;
+}
+.clipping {
+    display: inline-block;
+    background-color: white;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    width: auto;
+    height: 200;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.clipping img {
+    width: 140px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.clipping h3 {
+    font-size: 1.5em;
+    color: #6B8F71;
+    position: absolute;
+   left: 150px;
+    margin-top: 0px;
+}
+
+.clipping p {
+    color: #555;
+    font-size: 1.4em;
+    margin-top: 3%;
+    position: absolute;
+    top: 300px;
+    left: 185px
+}
+
+
+
 /*phone*/
 @media (orientation: portrait){
     #content {
